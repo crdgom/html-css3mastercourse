@@ -1,0 +1,155 @@
+/* Modulo 1 - Estilos CSS */
+/* Autor: Carlos Moctezuma @crdgom */
+/* Description: this css document contains all the styles that will be used
+/* during the creation of the module 1 of the master course of html5 and css3,
+/* as the student still does not have knowledge of css it is provided to him
+/* so that he can see his programming in the most educational way possible. */
+/* Last update: 2024-08-09 */
+/* Version: 1.0 */
+/* License: Creative Commons Zero V1.0 Universal */
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container Styles */
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Link Styles */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+    background: #f4f4f4;
+    margin-bottom: 5px;
+    border-left: 4px solid #333;
+}
+
+/* Article Styles */
+article {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #1e90ff;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+/* Buttons Styles */
+button {
+    padding: 10px 15px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
